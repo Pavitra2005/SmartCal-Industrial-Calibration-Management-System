@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # SmartCal – Industrial Calibration & Instrument Management System
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
@@ -326,6 +327,9 @@ Detailed architectural and engineering documentation is available in the [`docs/
 
 ---
 *Developed with enterprise metrology compliance standards (ISO 9001 / IATF 16949 / AS9100 / ISO/IEC 17025 / FDA 21 CFR Part 11).*
+=======
+# SmartCal-Industrial-Calibration-Management-System
+>>>>>>> 9a989e656cd4ca42739e528babacde74c7246140
 =======
 # SmartCal-Industrial-Calibration-Management-System
 >>>>>>> 9a989e656cd4ca42739e528babacde74c7246140
