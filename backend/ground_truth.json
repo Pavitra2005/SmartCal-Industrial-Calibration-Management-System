@@ -1,0 +1,42 @@
+[
+  {
+    "issue_id": "GT-EC1-001",
+    "entity_id": "AST-000001",
+    "entity_type": "ASSET",
+    "issue_type": "DUE_DATE_MISMATCH",
+    "expected_decision": "FLAG_DUE_DATE_MISMATCH",
+    "expected_severity": "HIGH",
+    "description": "Asset AST-000001 stored due date 2025-11-12 differs from calculated 2025-09-28",
+    "injected_case_label": "EDGE_CASE_1"
+  },
+  {
+    "issue_id": "GT-EC3-001",
+    "entity_id": "CERT-CAL-AST-000001-2026-000001",
+    "entity_type": "CERTIFICATE",
+    "issue_type": "CERTIFICATE_ASSET_MISMATCH",
+    "expected_decision": "FLAG_MISMATCH",
+    "expected_severity": "CRITICAL",
+    "description": "Certificate CERT-CAL-AST-000001-2026-000001 linked to event CAL-AST-000001-2026-000001 for asset AST-000001 but points to asset AST-000002",
+    "injected_case_label": "EDGE_CASE_3"
+  },
+  {
+    "issue_id": "GT-EC4-001",
+    "entity_id": "CAL-AST-000003-2026-999994",
+    "entity_type": "CALIBRATION",
+    "issue_type": "MISSING_IMPACT_ASSESSMENT",
+    "expected_decision": "CREATE_CORRECTIVE_WO",
+    "expected_severity": "CRITICAL",
+    "description": "Failed calibration CAL-AST-000003-2026-999994 without required engineering impact assessment",
+    "injected_case_label": "EDGE_CASE_4"
+  },
+  {
+    "issue_id": "GT-EC2-001",
+    "entity_id": "USE-AST-000004-999999",
+    "entity_type": "PRODUCTION_USE",
+    "issue_type": "EXPIRED_USAGE",
+    "expected_decision": "BLOCK_USAGE",
+    "expected_severity": "CRITICAL",
+    "description": "Usage attempt of expired asset AST-000004 without exception at 2026-04-13 14:30:00",
+    "injected_case_label": "EDGE_CASE_2"
+  }
+]
